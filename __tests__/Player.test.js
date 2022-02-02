@@ -6,6 +6,10 @@ console.log(new Potion());
 
 const Player = require('../lib/Player');
 
+expect(player.inventory).toEqual(
+  expect.arrayContaining([expect.any(Object)])
+);
+
 test('creates a player object', () => {
     const player = new Player('Dave');
   
