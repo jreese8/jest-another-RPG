@@ -8,15 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jreese8/jest-another-RPG.git"
+    "url": "git+https://github.com/deckiedevs/jest-another-RPG.git"
   },
-  "author": "",
+  "author": "Mila Decker",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jreese8/jest-another-RPG/issues"
+    "url": "https://github.com/deckiedevs/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/jreese8/jest-another-RPG#readme",
+  "homepage": "https://github.com/deckiedevs/jest-another-RPG#readme",
   "devDependencies": {
-    "jest": "^27.4.7"
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
   }
 }
